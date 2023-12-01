@@ -81,15 +81,11 @@ const Stack = createNativeStackNavigator();
       <NavigationContainer>
         <Stack.Navigator 
              screenOptions={{headerShown:false,}}  >
-          <Stack.Screen name="Supplements" component={Supplements} />
-          <Stack.Screen name="Catagor" component={Catagor} />
-          <Stack.Screen name="CatagoriDetails" component={CatagoriDetails} />
-          <Stack.Screen name="CatagoriPadg" component={CatagoriPadg} />
-          <Stack.Screen name="Catagoris" component={Catagoris} />
+          <Stack.Screen name="BottomTabs" component={BottomTabs} />
+          <Stack.Screen name="You" component={You} />
+          <Stack.Screen name="Cart" component={Cart} />
           <Stack.Screen name="HomeScreen" component={HomeScreen} />
           <Stack.Screen name="ProdactInfo" component={ProdactInfo} />
-
-
         </Stack.Navigator>
       </NavigationContainer>
     </>
